@@ -21,7 +21,7 @@ class PostsVC: UIViewController {
         setupTableView()
         title = "Posts"
         presenter = PostsVCPresenter(view: self)
-        presenter.viewDidLoad()
+        presenter.loadData()
     }
 }
 

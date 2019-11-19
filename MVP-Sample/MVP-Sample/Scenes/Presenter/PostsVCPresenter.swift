@@ -35,7 +35,7 @@ class PostsVCPresenter {
         self.view = view
     }
     
-    func viewDidLoad() {
+    func loadData() {
         getPosts()
     }
     
